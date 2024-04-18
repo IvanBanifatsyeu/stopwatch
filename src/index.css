@@ -1,0 +1,92 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(0, 0%, 85%);
+   
+}
+
+.wrapper {
+ border: 3px solid rgb(7, 7, 7);
+ padding: 30px;
+ border-radius: 20px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ background-color: hsl(0, 0%, 95%);;
+}
+
+.clock {
+    font-size: 3rem;
+    font-family: monospace;
+    font-weight: bold;
+    color: hsl(0, 0%, 20%);
+    text-shadow:0 0 2px hsl(0, 0%, 20%);
+    margin-bottom: 20px;
+
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 110%;
+    
+}
+
+.Button-start {
+    padding: 5px 15px;
+    min-width: 100px;
+    font-size: 1.3rem;
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    border: none;
+    background-color: hsl(120, 98%, 44%);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.Button-stop {
+    padding: 5px 15px;
+    min-width: 100px;
+    font-size: 1.3rem;
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    border: none;
+    background-color: hsl(0, 98%, 44%);
+    border-radius: 5px;
+    color: hsla(0, 0%, 100%, 0.932);
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.Button-reset {
+    padding: 5px 15px;
+    min-width: 100px;
+    font-size: 1.3rem;
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    border: none;
+    background-color: hsl(221, 98%, 44%);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.Button-start:hover{
+   background-color:  hsl(120, 98%, 48%);
+}
+.Button-stop:hover{
+    background-color:  hsl(0, 98%, 54%);
+}
+.Button-reset:hover {
+    background-color:  hsl(221, 98%, 54%);
+}

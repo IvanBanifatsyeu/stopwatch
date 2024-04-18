@@ -1,10 +1,11 @@
-
-
+import Stopwatch from "./Stopwatch";
 
 function App() {
-  return (
-    <p>Hello world</p>
-  );
+	return (
+		<>
+			<Stopwatch />
+		</>
+	);
 }
 
 export default App;
